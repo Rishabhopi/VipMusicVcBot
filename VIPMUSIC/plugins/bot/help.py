@@ -28,7 +28,7 @@ HELP_COMMAND = get_command("HELP_COMMAND")
 COLUMN_SIZE = 4  # number of  button height
 NUM_COLUMNS = 3  # number of button width
 
-donate = "https://envs.sh/Skk.jpg"
+donate = "https://graph.org/file/f172313e3a549e2ef685f.jpg"
 
 
 class EqInlineKeyboardButton(InlineKeyboardButton):
@@ -189,9 +189,9 @@ async def help_button(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        text="↪️ ʙᴀᴄᴋ", callback_data=f"help_back({prev_page_num})"
+                        text="𖨠ʙᴀᴄᴋ𖨠", callback_data=f"help_back({prev_page_num})"
                     ),
-                    InlineKeyboardButton(text="🔄 ᴄʟᴏsᴇ", callback_data="close"),
+                    InlineKeyboardButton(text="𖨠ᴄʟᴏsᴇ𖨠", callback_data="close"),
                 ],
             ]
         )
@@ -338,21 +338,21 @@ async def music_helper_cb(client, CallbackQuery, _):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="🔰ᴏᴡɴᴇʀ🔰", user_id=config.OWNER_ID[0]),
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="📍sᴜᴅᴏᴇʀs📍", url=f"https://t.me/{app.username}?start=sudo"
+                text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/ur_support07"
             ),
         ],
         [
-            InlineKeyboardButton(text="🎁ɪɴsᴛᴀ🎁", url=f"instagram.com/the.vip.boy"),
-            InlineKeyboardButton(text="💲ʏᴏᴜᴛᴜʙᴇ💲", url=f"youtube.com/@THE_VIP_BOY"),
+            InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url=f"t.me/RishuNetwork"),
+            InlineKeyboardButton(text="ʏᴏᴜᴛᴜʙᴇ", url=f"https://t.me/Vip_robotz/4"),
         ],
         [
-            InlineKeyboardButton(text="🔙 Back", callback_data="about")
+            InlineKeyboardButton(text="𖨠Back𖨠", callback_data="about")
         ],  # Use a default label for the back button
     ]
     await callback_query.message.edit_text(
-        "✦ **ᴛʜɪs ʙᴏᴛ ɪs ᴍᴀᴅᴇ ʙʏ ᴀ sᴋɪʟʟᴇᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsʏ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ᴍᴏʀᴇ ғᴜɴ.**\n\n✦ **ᴡɪᴛʜ ᴊᴜsᴛ ᴀ ғᴇᴡ ᴄʟɪᴄᴋs, ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛʀᴏʟ ᴇᴠᴇʀʏᴛʜɪɴɢ—ʟɪᴋᴇ sᴇᴛᴛɪɴɢ ᴜᴘ ᴏᴡɴᴇʀ sᴇᴛᴛɪɴɢs, ᴄʜᴇᴄᴋɪɴɢ sᴜᴅᴏᴇʀs, ᴀɴᴅ ᴇᴠᴇɴ ᴇxᴘʟᴏʀɪɴɢ ɪɴsᴛᴀɢʀᴀᴍ ᴀɴᴅ ʏᴏᴜᴛᴜʙᴇ.**\n\n✦ **ᴛʜᴇ ʙᴏᴛ ɪs ᴅᴇsɪɢɴᴇᴅ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴍᴏᴏᴛʜʟʏ ᴀɴᴅ ᴇɴᴊᴏʏ ᴍᴜsɪᴄ ᴛᴏᴏ. ᴊᴜsᴛ ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ sᴇᴇ ʜᴏᴡ ᴇᴀsʏ ɪᴛ ɪs!**",
+        "✦ **ᴛʜɪs ʙᴏᴛ ɪs ᴍᴀᴅᴇ ʙʏ ᴀ sᴋɪʟʟᴇᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsʏ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ᴍᴏʀᴇ ғᴜɴ.**\n\n✦ **ᴡɪᴛʜ ᴊᴜsᴛ ᴀ ғᴇᴡ ᴄʟɪᴄᴋs, ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛʀᴏʟ ᴇᴠᴇʀʏᴛʜɪɴɢ—ʟɪᴋᴇ sᴇᴛᴛɪɴɢ ᴜᴘ ᴏᴡɴᴇʀ sᴇᴛᴛɪɴɢs**\n\n✦ **ᴛʜᴇ ʙᴏᴛ ɪs ᴅᴇsɪɢɴᴇᴅ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴍᴏᴏᴛʜʟʏ ᴀɴᴅ ᴇɴᴊᴏʏ ᴍᴜsɪᴄ ᴛᴏᴏ. ᴊᴜsᴛ ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ sᴇᴇ ʜᴏᴡ ᴇᴀsʏ ɪᴛ ɪs!**",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -362,7 +362,7 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
             InlineKeyboardButton(
-                text="⚜️ ᴋɪᴅɴᴀᴘ ᴍᴇ ɪɴ ɴᴇᴡ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ ⚜️",
+                text="⚜️ ᴋɪᴅɴᴀᴘ ᴍᴇ ɪɴ ɴᴇᴡ ɢʀᴏᴜᴘ",
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
