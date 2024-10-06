@@ -231,12 +231,12 @@ async def start_comm(client, message: Message, _):
 
         try:
             out = music_start_panel(_)
-            vip = await message.reply_text(f"**ᴅιиg ᴅσиg ꨄ︎❣️.....**")
-            await vip.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎.❣️....**")
-            await vip.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎..❣️...**")
-            await vip.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎...❣️..**")
-            await vip.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎....❣️.**")
-            await vip.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎.....❣️**")
+            vip = await message.reply_text(f"**𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ︎ {message.from_user.mention}❣️**")
+            await vip.edit_text(f"**𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ︎ {message.from_user.mention}..🥳**")
+            await vip.edit_text(f"**𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ︎ {message.from_user.mention}...💥**")
+            await vip.edit_text(f"**𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ︎ {message.from_user.mention}....🤩**")
+            await vip.edit_text(f"**𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ︎ {message.from_user.mention}.....💌**")
+            await vip.edit_text(f"**𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ︎ {message.from_user.mention}......💞**")
 
             await vip.delete()
             vips = await message.reply_text("**⚡ѕ**")
