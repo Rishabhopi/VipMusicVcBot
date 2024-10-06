@@ -345,7 +345,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         ],
         [
             InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url=f"t.me/RishuNetwork"),
-            InlineKeyboardButton(text="ʏᴏᴜᴛᴜʙᴇ", url=f"https://t.me/Vip_robotz/4"),
+            InlineKeyboardButton(text="ᴀʟʟ ʙᴏᴛs", url=f"https://t.me/Vip_robotz/4"),
         ],
         [
             InlineKeyboardButton(text="𖨠Back𖨠", callback_data="about")
@@ -362,18 +362,18 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
             InlineKeyboardButton(
-                text="⚜️ ᴋɪᴅɴᴀᴘ ᴍᴇ ɪɴ ɴᴇᴡ ɢʀᴏᴜᴘ",
+                text="ᴋɪᴅɴᴀᴘ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ",
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
         [
-            InlineKeyboardButton(text="🎧 ᴍᴜsɪᴄ 🎧", callback_data="music"),
-            InlineKeyboardButton(text="♻️ ᴀʟʟ ♻️", callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="music"),
+            InlineKeyboardButton(text="ᴍᴀɴᴇɢᴇᴍᴇɴᴛ", callback_data="settings_back_helper"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
     await callback_query.message.edit_text(
-        f"**Wᴇʟᴄᴏᴍᴇ ᴛᴏ** {app.mention}\n\n**Exᴘʟᴏʀᴇ ᴀ ᴡɪᴅᴇ ʀᴀɴɢᴇ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴅᴇsɪɢɴᴇᴅ ᴛᴏ ᴇɴʜᴀɴᴄᴇ ʏᴏᴜʀ ᴍᴜsɪᴄ ᴇxᴘᴇʀɪᴇɴᴄᴇ. Tᴀᴘ KIDNAP ME IN YOUR NEW GROUP OR CHANNEL ᴛᴏ ɪɴᴠɪᴛᴇ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ᴏᴡɴ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴇɴɪᴏʏ sᴇᴀᴍʟᴇss ᴍᴜsɪᴄ ɪɴᴛᴇɢʀᴀᴛɪᴏɴ. Usᴇ ᴛʜᴇ MUSIC ʙᴜᴛᴛᴏɴ ᴛᴏ ᴀᴄᴄᴇss ᴀʟʟ ᴛʜᴇ ᴍᴜsɪᴄ-ʀᴇʟᴀᴛᴇᴅ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛɪᴇs, ғʀᴏᴍ sᴛʀᴇᴀᴍɪɴɢ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢs ᴛᴏ ᴄʀᴇᴀᴛɪɴɢ ᴘʟᴀʏʟɪsᴛs. Lᴏᴏᴋɪɴɢ ғᴏʀ ᴍᴏʀᴇ ᴏᴘᴛɪᴏɴs? Hɪᴛ ᴛʜᴇ ALL ʙᴜᴛᴛᴏɴ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴇᴠᴇʀʏᴛʜɪɴɢ ᴛʜɪs ʙᴏᴛ ᴄᴀɴ ᴏғғᴇʀ. Wʜᴇɴᴇᴠᴇʀ ʏᴏᴜ'ʀᴇ ʀᴇᴀᴅʏ, sɪᴍᴘʟʏ ᴛᴀᴘ HOME ᴛᴏ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛʜᴇ ᴍᴀɪɴ ᴍᴇɴᴜ. Eɴɪᴏʏ ʏᴏᴜʀ ᴛɪᴍᴇ ᴡɪᴛʜ JBL Mᴜsɪᴄ Bᴏᴛ!**",
+        f"**Wᴇʟᴄᴏᴍᴇ ᴛᴏ** {app.mention}\n\n**Exᴘʟᴏʀᴇ ᴀ ᴡɪᴅᴇ ʀᴀɴɢᴇ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴇɴʜᴀɴᴄᴇ ʏᴏᴜʀ ᴍᴜsɪᴄ ᴇxᴘᴇʀɪᴇɴᴄᴇ. Tᴀᴘ  ᴛᴏ ɪɴᴠɪᴛᴇ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ᴏᴡɴ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴇɴɪᴏʏ sᴇᴀᴍʟᴇss ᴍᴜsɪᴄ ɪɴᴛᴇɢʀᴀᴛɪᴏɴ. Usᴇ ᴛʜᴇ ᴍᴜsɪᴄ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴀᴄᴄᴇss ᴀʟʟ ᴛʜᴇ ᴍᴜsɪᴄ-ʀᴇʟᴀᴛᴇᴅ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛɪᴇs, ғʀᴏᴍ sᴛʀᴇᴀᴍɪɴɢ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢs ᴛᴏ ᴄʀᴇᴀᴛɪɴɢ ᴘʟᴀʏʟɪsᴛs.!**",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
@@ -422,7 +422,7 @@ async def music_callback(client: Client, callback_query: CallbackQuery):
     )
 
     await callback_query.message.edit(
-        f"**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/tg_friendsss)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**",
+        f"**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/ur_support07)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**",
         reply_markup=keyboard,
     )
 
@@ -432,18 +432,18 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
             InlineKeyboardButton(
-                text="⚜️ ᴋɪᴅɴᴀᴘ ᴍᴇ ɪɴ ɴᴇᴡ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ ⚜️",
+                text="ᴋɪᴅɴᴀᴘ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ",
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
         [
-            InlineKeyboardButton(text="🎧 ᴍᴜsɪᴄ 🎧", callback_data="music"),
-            InlineKeyboardButton(text="♻️ ᴀʟʟ ♻️", callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="music"),
+            InlineKeyboardButton(text="ᴍᴀɴᴇɢᴇᴍᴇɴᴛ", callback_data="settings_back_helper"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
     await callback_query.message.edit_text(
-        f"**Wᴇʟᴄᴏᴍᴇ ᴛᴏ** {app.mention}\n\n**Exᴘʟᴏʀᴇ ᴀ ᴡɪᴅᴇ ʀᴀɴɢᴇ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴅᴇsɪɢɴᴇᴅ ᴛᴏ ᴇɴʜᴀɴᴄᴇ ʏᴏᴜʀ ᴍᴜsɪᴄ ᴇxᴘᴇʀɪᴇɴᴄᴇ. Tᴀᴘ KIDNAP ME IN YOUR NEW GROUP OR CHANNEL ᴛᴏ ɪɴᴠɪᴛᴇ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ᴏᴡɴ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴇɴɪᴏʏ sᴇᴀᴍʟᴇss ᴍᴜsɪᴄ ɪɴᴛᴇɢʀᴀᴛɪᴏɴ. Usᴇ ᴛʜᴇ MUSIC ʙᴜᴛᴛᴏɴ ᴛᴏ ᴀᴄᴄᴇss ᴀʟʟ ᴛʜᴇ ᴍᴜsɪᴄ-ʀᴇʟᴀᴛᴇᴅ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛɪᴇs, ғʀᴏᴍ sᴛʀᴇᴀᴍɪɴɢ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢs ᴛᴏ ᴄʀᴇᴀᴛɪɴɢ ᴘʟᴀʏʟɪsᴛs. Lᴏᴏᴋɪɴɢ ғᴏʀ ᴍᴏʀᴇ ᴏᴘᴛɪᴏɴs? Hɪᴛ ᴛʜᴇ ALL ʙᴜᴛᴛᴏɴ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴇᴠᴇʀʏᴛʜɪɴɢ ᴛʜɪs ʙᴏᴛ ᴄᴀɴ ᴏғғᴇʀ. Wʜᴇɴᴇᴠᴇʀ ʏᴏᴜ'ʀᴇ ʀᴇᴀᴅʏ, sɪᴍᴘʟʏ ᴛᴀᴘ HOME ᴛᴏ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛʜᴇ ᴍᴀɪɴ ᴍᴇɴᴜ. Eɴɪᴏʏ ʏᴏᴜʀ ᴛɪᴍᴇ ᴡɪᴛʜ JBL Mᴜsɪᴄ Bᴏᴛ!**",
+        f"**Wᴇʟᴄᴏᴍᴇ ᴛᴏ** {app.mention}\n\n**Exᴘʟᴏʀᴇ ᴀ ᴡɪᴅᴇ ʀᴀɴɢᴇ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴇɴʜᴀɴᴄᴇ ʏᴏᴜʀ ᴍᴜsɪᴄ ᴇxᴘᴇʀɪᴇɴᴄᴇ. Tᴀᴘ  ᴛᴏ ɪɴᴠɪᴛᴇ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ᴏᴡɴ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴇɴɪᴏʏ sᴇᴀᴍʟᴇss ᴍᴜsɪᴄ ɪɴᴛᴇɢʀᴀᴛɪᴏɴ. Usᴇ ᴛʜᴇ ᴍᴜsɪᴄ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴀᴄᴄᴇss ᴀʟʟ ᴛʜᴇ ᴍᴜsɪᴄ-ʀᴇʟᴀᴛᴇᴅ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛɪᴇs, ғʀᴏᴍ sᴛʀᴇᴀᴍɪɴɢ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢs ᴛᴏ ᴄʀᴇᴀᴛɪɴɢ ᴘʟᴀʏʟɪsᴛs!**",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
@@ -466,17 +466,17 @@ def back_to_music(_):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="✨ᴅᴇᴠᴇʟᴏᴘᴇʀ✨", callback_data="developer"),
-            InlineKeyboardButton(text="⚡ғᴇᴀᴛᴜʀᴇ⚡", callback_data="feature"),
+            InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", callback_data="developer"),
+            InlineKeyboardButton(text="ғᴇᴀᴛᴜʀᴇ", callback_data="feature"),
         ],
         [
-            InlineKeyboardButton(text="📓ʙᴀsɪᴄ ɢᴜɪᴅᴇ📓", callback_data="basic_guide"),
-            InlineKeyboardButton(text="⚜️ᴅᴏɴᴀᴛᴇ⚜️", callback_data="donate"),
+            InlineKeyboardButton(text="ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="basic_guide"),
+            InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ", callback_data="donate"),
         ],
-        [InlineKeyboardButton(text="🔙 Back", callback_data="go_to_start")],
+        [InlineKeyboardButton(text="⦿Back⦿", callback_data="go_to_start")],
     ]
     await callback_query.message.edit_text(
-        f"**ʜɪ ɪ ᴀᴍ {app.mention} ✨**\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)**\n\n**● ɪ ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs.**\n**● ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs.**\n**● ɪ ʜᴀᴠᴇ ᴀ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sʏsᴛᴇᴍ.**\n**● ɪ ʜᴀᴠᴇ ᴀʟᴍᴏsᴛ ᴀʟʟ ᴀᴡᴀɪᴛᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ғᴇᴀᴛᴜʀᴇs ʟɪᴋᴇ ʙᴀɴ, ᴍᴜᴛᴇ, ᴡᴇʟᴄᴏᴍᴇ, ᴋɪᴄᴋ, ғᴇᴅᴇʀᴀᴛɪᴏɴ, ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ.**\n**● ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ-ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛs, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs.**\n**● ɪ ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғ.**\n\n**➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʙᴏᴛ 🦚.**",
+        f"**ʜɪ ɪ ᴀᴍ {app.mention} **\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)**\n\n**● ɪ ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs.**\n**● ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs.**\n**● ɪ ʜᴀᴠᴇ ᴀ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sʏsᴛᴇᴍ.**\n**● ɪ ʜᴀᴠᴇ ᴀʟᴍᴏsᴛ ᴀʟʟ ᴀᴡᴀɪᴛᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ғᴇᴀᴛᴜʀᴇs ʟɪᴋᴇ ʙᴀɴ, ᴍᴜᴛᴇ, ᴡᴇʟᴄᴏᴍᴇ, ᴋɪᴄᴋ, ғᴇᴅᴇʀᴀᴛɪᴏɴ, ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ.**\n**● ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ-ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛs, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs.**\n**● ɪ ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғ.**\n\n**➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʙᴏᴛ .**",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -486,15 +486,15 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
 async def back_button_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
-            InlineKeyboardButton(text="🎭ᴏᴡɴᴇʀ🎭", user_id=config.OWNER_ID[0]),
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="🌱ɢɪᴛʜᴜʙ🌱",
-                url="https://github.com/THE-VIP-BOY-OP",
+                text="ᴀʟʟ ʙᴏᴛs",
+                url="https://t.me/Vip_robotz/4",
             ),
         ],
         [
-            InlineKeyboardButton(text="⛅ɢʀᴏᴜᴘ⛅", url=f"{config.SUPPORT_GROUP}"),
-            InlineKeyboardButton(text="🎄ᴄʜᴀɴɴᴇʟ🎄", url=f"{config.SUPPORT_CHANNEL}"),
+            InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=f"{config.SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"{config.SUPPORT_CHANNEL}"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
