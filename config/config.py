@@ -53,7 +53,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/THE-VIP-BOY-OP/Extra-Plugin",
+    "https://github.com/Rishabhopi/Extra-Plugin",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -75,14 +75,14 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1808943146").split())
+    map(int, getenv("OWNER_ID", "5738579437").split())
 )  # Input type must be interger
 
 
 # make your bots privacy from telegra.ph and put your url here
 
 PRIVACY_LINK = getenv(
-    "PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-VIPMUSIC-08-30"
+    "PRIVACY_LINK", "https://t.me/ur_rishu_143"
 )
 
 
@@ -96,7 +96,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+    "https://github.com/RishuxCoder/VIP-MUSIC-bot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -107,21 +107,21 @@ GIT_TOKEN = getenv(
 )
 
 # Auto Gcast/Broadcast Handler, Write:- [On / Off] During Hosting.
-AUTO_GCAST = os.getenv("AUTO_GCAST", "on")
+AUTO_GCAST = os.getenv("AUTO_GCAST", "off")
 
 # Auto Broadcast Message That You Want Use In Auto Broadcast In All Groups.
 AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/VIP_CREATORS"
-)  # Example:- https://t.me/VIP_CREATORS
+    "SUPPORT_CHANNEL", "https://t.me/Nenobots"
+)  # Example:- https://t.me/nenobots
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "SUPPORT_GROUP", "https://t.me/FRIENDSCHATZONEOFFCIAL"
+)  # Example:- https://t.me/ur_support07
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
+    "SUPPORT_GROUP", "https://t.me/FRIENDSCHATZONEOFFCIAL"
 )  # Example:- https://t.me/TG_FRIENDSS
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
@@ -144,7 +144,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/ur_rishu_143")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
